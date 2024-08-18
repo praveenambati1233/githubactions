@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: myCompositeAction
-      uses: praveenambati1233/compositeActions@v2
+      uses: praveenambati1233/compositeActions@v3
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         destinationFolder: '/whatever/folder'
