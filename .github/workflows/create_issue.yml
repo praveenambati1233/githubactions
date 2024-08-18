@@ -2,6 +2,8 @@ name: Example Workflow
  
 on: [push]
  
+permissions: 
+  issues: write
 jobs:
   example-job:
     runs-on: ubuntu-latest
