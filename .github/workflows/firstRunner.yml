@@ -8,3 +8,7 @@ jobs:
         run: echo "hello first step"
       - name: second step
         run: echo "bye"
+      - name: run multiple commands
+        run: |
+            echo "run line 1"
+            echo "run line 2"
